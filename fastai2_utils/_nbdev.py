@@ -8,8 +8,6 @@ index = {"pct_splits": "01_data.core.ipynb",
          "BatchFirstTransformerEncoder": "02_pytorch.transformer.ipynb",
          "BatchFirstTransformerDecoder": "02_pytorch.transformer.ipynb",
          "BatchFirstMultiheadAttention": "02_pytorch.transformer.ipynb",
-         "layer_info": "03_pytorch.model.ipynb",
-         "nn.Module.summary": "03_pytorch.model.ipynb",
          "check_requires_grad": "03_pytorch.model.ipynb",
          "set_requires_grad": "03_pytorch.model.ipynb",
          "freeze_to": "03_pytorch.model.ipynb"}
