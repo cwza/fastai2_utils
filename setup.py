@@ -44,6 +44,7 @@ setuptools.setup(
     entry_points = { 'console_scripts': cfg.get('console_scripts','').split() },
     install_requires = [
         'fastai2 @ git+https://github.com/fastai/fastai2.git',
+        'Optuna',
     ],
     extras_require={
         'dev': ['nbdev']

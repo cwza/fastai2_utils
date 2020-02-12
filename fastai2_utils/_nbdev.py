@@ -10,11 +10,14 @@ index = {"pct_splits": "01_data.core.ipynb",
          "BatchFirstMultiheadAttention": "02_pytorch.transformer.ipynb",
          "check_requires_grad": "03_pytorch.model.ipynb",
          "set_requires_grad": "03_pytorch.model.ipynb",
-         "freeze_to": "03_pytorch.model.ipynb"}
+         "freeze_to": "03_pytorch.model.ipynb",
+         "get_latest_metric_val": "04_optuna.ipynb",
+         "OptunaPruningCallback": "04_optuna.ipynb"}
 
 modules = ["data/core.py",
            "pytorch/transformer.py",
-           "pytorch/model.py"]
+           "pytorch/model.py",
+           "optuna.py"]
 
 doc_url = "https://cwza.github.io/fastai2_utils/"
 
