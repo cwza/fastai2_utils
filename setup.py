@@ -43,6 +43,7 @@ setuptools.setup(
     zip_safe = False,
     entry_points = { 'console_scripts': cfg.get('console_scripts','').split() },
     install_requires = [
+        'fastcore @ git+https://github.com/fastai/fastcore.git',
         'fastai2 @ git+https://github.com/fastai/fastai2.git',
         'Optuna',
     ],
